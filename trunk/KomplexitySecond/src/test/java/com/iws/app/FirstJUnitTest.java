@@ -72,7 +72,7 @@ public class FirstJUnitTest{// extends HudsonTestCase{
 	 * red
 	 */
 	public void return5Test_Fail() {
-		assertEquals(5, return5());
+		assertEquals(6, return5());
 	}
 	
 	@Test
