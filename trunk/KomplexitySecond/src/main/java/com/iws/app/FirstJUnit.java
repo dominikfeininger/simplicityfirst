@@ -1,6 +1,6 @@
 package main.java.com.iws.app;
 
-public class FirstJUnitTest {
+public class FirstJUnit {
 
 	/**
 	 * @param args

@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 
 import org.junit.*;
-import static main.java.com.iws.app.FirstJUnitTest.*;
+import static main.java.com.iws.app.FirstJUnit.*;
 
 public class FirstJUnitTest{// extends HudsonTestCase{
 	
