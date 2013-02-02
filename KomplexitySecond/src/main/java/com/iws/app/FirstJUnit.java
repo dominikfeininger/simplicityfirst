@@ -6,8 +6,14 @@ public class FirstJUnit {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		
+		
+		String name = null;// = "name";
+		if (name != null) {
+			name = "name2";
+		}
+		name = "name2";
 	}
 	
 	/**
@@ -50,5 +56,15 @@ public class FirstJUnit {
 		Object obj = new Object();
 		return obj;
 	}
-
+	
+	
+	public static void findBug(){
+		String aString = "bob";
+		aString.replace('b', 'p');
+		if(aString.equals("pop")){
+			System.out.println("relpaced");
+		}else{
+			System.out.println("original");
+		}
+	}
 }
